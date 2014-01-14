@@ -1,0 +1,5 @@
+E:\All College Stuff Ever\ProjectX\ProjectX.Lex\bin\Debug\ProjectX.Lex.dll
+E:\All College Stuff Ever\ProjectX\ProjectX.Lex\bin\Debug\ProjectX.Lex.pdb
+E:\All College Stuff Ever\ProjectX\ProjectX.Lex\obj\Debug\ProjectX.Lex.csprojResolveAssemblyReference.cache
+E:\All College Stuff Ever\ProjectX\ProjectX.Lex\obj\Debug\ProjectX.Lex.dll
+E:\All College Stuff Ever\ProjectX\ProjectX.Lex\obj\Debug\ProjectX.Lex.pdb
