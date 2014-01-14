@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectX.Lex", "ProjectX.Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectX.Input", "ProjectX.Input\ProjectX.Input.csproj", "{86789A09-456C-4322-8B95-2324FDA10220}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectX.FiniteStateGenerator", "ProjectX.FiniteStateGenerator\ProjectX.FiniteStateGenerator.csproj", "{C40421D0-3550-4AD6-A7EF-81447E92C3D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{86789A09-456C-4322-8B95-2324FDA10220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86789A09-456C-4322-8B95-2324FDA10220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86789A09-456C-4322-8B95-2324FDA10220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40421D0-3550-4AD6-A7EF-81447E92C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40421D0-3550-4AD6-A7EF-81447E92C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40421D0-3550-4AD6-A7EF-81447E92C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40421D0-3550-4AD6-A7EF-81447E92C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
