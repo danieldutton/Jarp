@@ -22,14 +22,14 @@ namespace ProjectX._Tests.KeywordMapping
         [ExpectedException(typeof(ArgumentNullException))]
         public void GetKeywordMap_Foo()
         {
-            new MapInitialiser("Test", null);
+            new MapInitialiser(TargetLanguage.CSharp);
         }
 
         [Test]
         [ExpectedException(typeof(ArgumentNullException))]
         public void GetKeywordMap_Fooz()
         {
-            new MapInitialiser(null, "Test");
+            new MapInitialiser(TargetLanguage.CSharp);
         }
 
         [Test]
@@ -38,7 +38,7 @@ namespace ProjectX._Tests.KeywordMapping
             bool wasCalled = false;
 
             _mapInitialiser.Start += (o, e) => wasCalled = true;
-            _mapInitialiser.GetKeywordMap();
+            _mapInitialiser.GetKeywordMap(TargetLanguage.CSharp);
 
             Assert.IsTrue(wasCalled);
         }
@@ -49,7 +49,7 @@ namespace ProjectX._Tests.KeywordMapping
             bool wasCalled = false;
 
             _mapInitialiser.InProgress += (o, e) => wasCalled = true;
-            _mapInitialiser.GetKeywordMap();
+            _mapInitialiser.GetKeywordMap(TargetLanguage.CSharp);
 
             Assert.IsTrue(wasCalled);
         }
@@ -60,7 +60,7 @@ namespace ProjectX._Tests.KeywordMapping
             bool wasCalled = false;
 
             _mapInitialiser.Complete += (o, e) => wasCalled = true;
-            _mapInitialiser.GetKeywordMap();
+            _mapInitialiser.GetKeywordMap(TargetLanguage.CSharp);
 
             Assert.IsTrue(wasCalled);
         }

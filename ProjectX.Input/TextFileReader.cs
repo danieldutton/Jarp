@@ -6,6 +6,13 @@ namespace ProjectX.Input
 {
     public class TextFileReader : IFileReader
     {
+        private readonly TextReader _textReader;
+
+        public TextFileReader(TextReader textReader)
+        {
+            _textReader = textReader;
+        }
+
         public string[] Read(params string[] filePaths)
         {
             if (filePaths == null) throw new ArgumentNullException("filePaths");

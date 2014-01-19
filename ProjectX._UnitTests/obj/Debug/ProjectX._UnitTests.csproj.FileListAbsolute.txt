@@ -1,0 +1,13 @@
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\obj\Debug\ProjectX._UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX._Tests.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX._Tests.pdb
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX.Interfaces.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX.KeywordMapping.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX.Lex.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX.Interfaces.pdb
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX.KeywordMapping.pdb
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\ProjectX.Lex.pdb
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\obj\Debug\ProjectX._Tests.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX._UnitTests\obj\Debug\ProjectX._Tests.pdb

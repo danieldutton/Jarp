@@ -3,3 +3,8 @@ E:\All College Stuff Ever\ProjectX\ProjectX.Lex\bin\Debug\ProjectX.Lex.pdb
 E:\All College Stuff Ever\ProjectX\ProjectX.Lex\obj\Debug\ProjectX.Lex.csprojResolveAssemblyReference.cache
 E:\All College Stuff Ever\ProjectX\ProjectX.Lex\obj\Debug\ProjectX.Lex.dll
 E:\All College Stuff Ever\ProjectX\ProjectX.Lex\obj\Debug\ProjectX.Lex.pdb
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.Lex\bin\Debug\ProjectX.Lex.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.Lex\bin\Debug\ProjectX.Lex.pdb
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.Lex\obj\Debug\ProjectX.Lex.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.Lex\obj\Debug\ProjectX.Lex.dll
+C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.Lex\obj\Debug\ProjectX.Lex.pdb

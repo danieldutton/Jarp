@@ -9,6 +9,7 @@ namespace ProjectX.Lex
     public class Lexer : ILexer
     {
         readonly Regex _endOfLineRegex = new Regex(@"\r\n|\r|\n", RegexOptions.Compiled);
+        
         readonly IList<TokenDefinition> _tokenDefinitions = new List<TokenDefinition>();
 
         public void AddDefinition(TokenDefinition tokenDefinition)
