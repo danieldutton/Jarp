@@ -2,7 +2,7 @@
 using ProjectX.Lex.Model;
 using System.Text.RegularExpressions;
 
-namespace ProjectX._IntegrationTests.Lex.Model
+namespace ProjectX.IntegrationTests.Lex.Model
 {
     [TestFixture]
     public class TokenDefinition_Should

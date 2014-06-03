@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
-using ProjectX.KeywordMapping;
-using ProjectX.KeywordMapping.Domain;
+using ProjectX.KeywordMapper;
+using ProjectX.KeywordMapper.Domain;
 using System.Collections.Generic;
 
-namespace ProjectX._IntegrationTests.KeywordMapping
+namespace ProjectX.IntegrationTests.KeywordMapping
 {
     [TestFixture]
     public class MapInitialiser_Should

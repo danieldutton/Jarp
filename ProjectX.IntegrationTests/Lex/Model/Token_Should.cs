@@ -2,7 +2,7 @@
 using ProjectX.Lex.Model;
 using System.Diagnostics;
 
-namespace ProjectX._IntegrationTests.Lex.Model
+namespace ProjectX.IntegrationTests.Lex.Model
 {
     [TestFixture]
     public class Token_Should

@@ -21,13 +21,14 @@ namespace ProjectX.Input
 
             for (int i = 0; i < filePaths.Length; i++)
             {
-                TextReader textReader = new StreamReader(filePaths[i]);
+                using (TextReader textReader = new StreamReader(filePaths[i]))
+                {
+                    string str = textReader.ReadToEnd();
 
-                string str = textReader.ReadToEnd();
+                    srcStrings[i] = str;
 
-                srcStrings[i] = str;
-
-                textReader.Close();
+                    textReader.Close();    
+                }
             }
             return srcStrings;
         }

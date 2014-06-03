@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using ProjectX.Lex.Model;
 
-namespace ProjectX._IntegrationTests.Lex.Model
+namespace ProjectX.IntegrationTests.Lex.Model
 {
     [TestFixture]
     public class TokenPosition_Should

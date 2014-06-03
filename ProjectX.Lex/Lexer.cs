@@ -8,9 +8,10 @@ namespace ProjectX.Lex
 {
     public class Lexer : ILexer
     {
-        readonly Regex _endOfLineRegex = new Regex(@"\r\n|\r|\n", RegexOptions.Compiled);
-        
-        readonly IList<TokenDefinition> _tokenDefinitions = new List<TokenDefinition>();
+        private readonly Regex _endOfLineRegex = new Regex(@"\r\n|\r|\n", RegexOptions.Compiled);
+
+        private readonly IList<TokenDefinition> _tokenDefinitions = new List<TokenDefinition>();
+
 
         public void AddDefinition(TokenDefinition tokenDefinition)
         {
@@ -44,26 +45,23 @@ namespace ProjectX.Lex
                 {
                     throw new Exception(string.Format("Unrecognized symbol '{0}' at index {1} (line {2}, column {3}).", source[currentIndex], currentIndex, currentLine, currentColumn));
                 }
+                var value = source.Substring(currentIndex, matchLength);
+
+                if (!matchedDefinition.IsIgnored)
+                    yield return new Token(matchedDefinition.Type, value, new TokenPosition(currentIndex, currentLine, currentColumn));
+
+                var endOfLineMatch = _endOfLineRegex.Match(value);
+                if (endOfLineMatch.Success)
+                {
+                    currentLine += 1;
+                    currentColumn = value.Length - (endOfLineMatch.Index + endOfLineMatch.Length);
+                }
                 else
                 {
-                    var value = source.Substring(currentIndex, matchLength);
-
-                    if (!matchedDefinition.IsIgnored)
-                        yield return new Token(matchedDefinition.Type, value, new TokenPosition(currentIndex, currentLine, currentColumn));
-
-                    var endOfLineMatch = _endOfLineRegex.Match(value);
-                    if (endOfLineMatch.Success)
-                    {
-                        currentLine += 1;
-                        currentColumn = value.Length - (endOfLineMatch.Index + endOfLineMatch.Length);
-                    }
-                    else
-                    {
-                        currentColumn += matchLength;
-                    }
-
-                    currentIndex += matchLength;
+                    currentColumn += matchLength;
                 }
+
+                currentIndex += matchLength;
             }
 
             yield return new Token("(end)", null, new TokenPosition(currentIndex, currentLine, currentColumn));
