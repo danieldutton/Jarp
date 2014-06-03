@@ -1,5 +1,0 @@
-C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.FiniteStateGenerator\bin\Debug\ProjectX.FiniteStateGenerator.dll
-C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.FiniteStateGenerator\bin\Debug\ProjectX.FiniteStateGenerator.pdb
-C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.FiniteStateGenerator\obj\Debug\ProjectX.FiniteStateGenerator.csprojResolveAssemblyReference.cache
-C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.FiniteStateGenerator\obj\Debug\ProjectX.FiniteStateGenerator.dll
-C:\Users\Danny\Documents\GitHub\Jarp\ProjectX.FiniteStateGenerator\obj\Debug\ProjectX.FiniteStateGenerator.pdb
