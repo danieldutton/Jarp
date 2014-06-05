@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
+using Jarp.Lex.Model;
 using NUnit.Framework;
-using ProjectX.Lex.Model;
 
 namespace Jarp.IntegrationTests.Lex.Model
 {

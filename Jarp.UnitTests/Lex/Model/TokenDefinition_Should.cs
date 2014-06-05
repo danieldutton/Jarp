@@ -1,8 +1,8 @@
 ﻿using System.Text.RegularExpressions;
+using Jarp.Lex.Model;
 using NUnit.Framework;
-using ProjectX.Lex.Model;
 
-namespace ProjectX.Tests.Lex.Model
+namespace Jarp.Tests.Lex.Model
 {
     [TestFixture]
     public class TokenDefinition_Should

@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace ProjectX.Lex.Model
+namespace Jarp.Lex.Model
 {
     public class TokenDefinition
     {

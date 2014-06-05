@@ -47,9 +47,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Input\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Jarp.Interfaces\Jarp.Interfaces.csproj">
       <Project>{60BB0F01-3C90-42F0-9C44-AD66A0885071}</Project>

@@ -1,7 +1,7 @@
 ﻿using System;
 using Jarp.KeywordMapper;
+using Jarp.KeywordMapper.Domain;
 using NUnit.Framework;
-using ProjectX.KeywordMapper.Domain;
 
 namespace Jarp.Tests.KeywordMapper
 {

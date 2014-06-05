@@ -1,4 +1,4 @@
-﻿namespace ProjectX.Input.Interfaces
+﻿namespace Jarp.Input.Interfaces
 {
     public interface IFileReader
     {

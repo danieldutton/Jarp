@@ -1,7 +1,7 @@
-﻿using ProjectX.Lex.Model;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Jarp.Lex.Model;
 
-namespace ProjectX.Lex.Interfaces
+namespace Jarp.Lex.Interfaces
 {
     public interface ILexer
     {

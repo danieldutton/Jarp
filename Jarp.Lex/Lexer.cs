@@ -1,10 +1,10 @@
-﻿using ProjectX.Lex.Interfaces;
-using ProjectX.Lex.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using Jarp.Lex.Interfaces;
+using Jarp.Lex.Model;
 
-namespace ProjectX.Lex
+namespace Jarp.Lex
 {
     public class Lexer : ILexer
     {

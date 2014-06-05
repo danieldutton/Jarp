@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using ProjectX.Interfaces;
-using ProjectX.KeywordMapper.Domain;
+using Jarp.Interfaces;
+using Jarp.KeywordMapper.Domain;
 
 namespace Jarp.KeywordMapper
 {
@@ -54,7 +54,11 @@ namespace Jarp.KeywordMapper
 
         private Dictionary<string, string> PopulateKeywordMap(IEnumerable<XElement> elements)
         {            
-            var keywordMap = elements.ToDictionary(e => e.Element("key").Value.ToString(), e => e.Element("value").Value.ToString());
+            var keywordMap = elements.ToDictionary(e => e.Element("key")
+                .Value.ToString(), 
+                e => e.Element("value")
+                    .Value
+                    .ToString());
 
             return keywordMap;
         }

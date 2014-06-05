@@ -1,5 +1,5 @@
-﻿using NUnit.Framework;
-using ProjectX.Lex.Model;
+﻿using Jarp.Lex.Model;
+using NUnit.Framework;
 
 namespace Jarp.Tests.Lex.Model
 {

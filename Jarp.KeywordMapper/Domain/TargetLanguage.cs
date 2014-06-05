@@ -1,4 +1,4 @@
-﻿namespace ProjectX.KeywordMapper.Domain
+﻿namespace Jarp.KeywordMapper.Domain
 {
     public enum TargetLanguage
     {

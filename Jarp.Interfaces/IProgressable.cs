@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectX.Interfaces
+namespace Jarp.Interfaces
 {
     public interface IProgressable
     {

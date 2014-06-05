@@ -1,4 +1,4 @@
-﻿namespace ProjectX.Lex.Model
+﻿namespace Jarp.Lex.Model
 {
     public class TokenPosition
     {

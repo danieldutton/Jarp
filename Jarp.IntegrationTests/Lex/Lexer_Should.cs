@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace ProjectX.IntegrationTests.Lex
+namespace Jarp.IntegrationTests.Lex
 {
     [TestFixture]
     public class Lexer_Should

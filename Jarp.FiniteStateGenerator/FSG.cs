@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ProjectX.FiniteStateGenerator;
-using ProjectX.Lex.Model;
+using Jarp.Lex.Model;
 
 namespace Jarp.FiniteStateGenerator
 {

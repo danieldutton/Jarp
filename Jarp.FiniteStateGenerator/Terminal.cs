@@ -1,4 +1,4 @@
-﻿namespace ProjectX.FiniteStateGenerator
+﻿namespace Jarp.FiniteStateGenerator
 {
     public class Terminal<T>
     {

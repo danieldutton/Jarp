@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
+using Jarp.Lex.Model;
 using NUnit.Framework;
-using ProjectX.Lex.Model;
 
-namespace ProjectX.Tests.Lex.Model
+namespace Jarp.Tests.Lex.Model
 {
     [TestFixture]
     public class Token_Should

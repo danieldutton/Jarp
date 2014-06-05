@@ -1,8 +1,8 @@
-﻿using System.IO;
-using ProjectX.Input.Interfaces;
-using System;
+﻿using System;
+using System.IO;
+using Jarp.Input.Interfaces;
 
-namespace ProjectX.Input
+namespace Jarp.Input
 {
     public class TextFileReader : IFileReader
     {

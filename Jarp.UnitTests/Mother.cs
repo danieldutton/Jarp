@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ProjectX.Tests
+namespace Jarp.Tests
 {
     public static class Mother
     {        
