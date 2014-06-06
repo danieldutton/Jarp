@@ -8,6 +8,10 @@ namespace Jarp.LexerBuilder
 
         protected ILexer Lexer { get { return _lexer; } }
 
+        protected Builder()
+        {            
+        }
+
         protected Builder(ILexer lexer)
         {
             _lexer = lexer;

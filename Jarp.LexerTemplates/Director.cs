@@ -1,4 +1,5 @@
-﻿using Jarp.Lex.Interfaces;
+﻿using System;
+using Jarp.Lex.Interfaces;
 
 namespace Jarp.LexerBuilder
 {
@@ -6,6 +7,8 @@ namespace Jarp.LexerBuilder
     {
         public ILexer Construct(Builder builder)
         {
+            if(builder == null) throw new ArgumentNullException("builder");
+
             builder.InitOperators();
             builder.InitLiterals();
             builder.InitWhiteSpace();

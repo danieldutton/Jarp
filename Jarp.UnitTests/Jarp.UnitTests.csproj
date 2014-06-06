@@ -42,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KeywordMapper\MapInitialiser_Should.cs" />
-    <Compile Include="LexBuilder\JavaLexBuilder_Should.cs" />
+    <Compile Include="LexBuilder\Builders\JavaLexBuilder_Should.cs" />
+    <Compile Include="LexBuilder\Director_Should.cs" />
     <Compile Include="Lex\Model\TokenDefinition_Should.cs" />
     <Compile Include="Lex\Model\TokenPosition_Should.cs" />
     <Compile Include="Lex\Model\Token_Should.cs" />
