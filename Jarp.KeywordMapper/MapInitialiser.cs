@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Jarp.Interfaces;
+using Jarp.KeywordMapper.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using Jarp.Interfaces;
-using Jarp.KeywordMapper.Domain;
 
 namespace Jarp.KeywordMapper
 {

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2197D6F8-74DF-4AAC-A0F1-988D07E9375F}</ProjectGuid>
+    <ProjectGuid>{2083B927-C049-41DD-9CC4-CF3E3473F439}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarp.Lex</RootNamespace>
-    <AssemblyName>Jarp.Lex</AssemblyName>
+    <RootNamespace>Jarp.LexerBuilder</RootNamespace>
+    <AssemblyName>Jarp.LexBuilder</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -34,15 +34,18 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Initialiser.cs" />
-    <Compile Include="Interfaces\ILexer.cs" />
-    <Compile Include="Lexer.cs" />
+    <Compile Include="Builder.cs" />
+    <Compile Include="Builders\JavaLexBuilder.cs" />
+    <Compile Include="Director.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Token.cs" />
-    <Compile Include="Model\TokenDefinition.cs" />
-    <Compile Include="Model\TokenPosition.cs" />
-    <Compile Include="JavaInitialiser.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jarp.Lex\Jarp.Lex.csproj">
+      <Project>{2197D6F8-74DF-4AAC-A0F1-988D07E9375F}</Project>
+      <Name>Jarp.Lex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

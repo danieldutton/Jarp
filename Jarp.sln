@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarp.Lex", "Jarp.Lex\Jarp.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarp.Presentation", "Jarp.Presentation\Jarp.Presentation.csproj", "{FA59D558-385E-462E-B2F5-D44E4D35C790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarp.LexBuilder", "Jarp.LexerTemplates\Jarp.LexBuilder.csproj", "{2083B927-C049-41DD-9CC4-CF3E3473F439}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{FA59D558-385E-462E-B2F5-D44E4D35C790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA59D558-385E-462E-B2F5-D44E4D35C790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA59D558-385E-462E-B2F5-D44E4D35C790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2083B927-C049-41DD-9CC4-CF3E3473F439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2083B927-C049-41DD-9CC4-CF3E3473F439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2083B927-C049-41DD-9CC4-CF3E3473F439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2083B927-C049-41DD-9CC4-CF3E3473F439}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

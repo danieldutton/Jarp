@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Jarp.Lex.Interfaces;
+using Jarp.Lex.Model;
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using Jarp.Lex.Interfaces;
-using Jarp.Lex.Model;
 
 namespace Jarp.Lex
 {

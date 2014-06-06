@@ -30,14 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1402.2112\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KeywordMapper\MapInitialiser_Should.cs" />
+    <Compile Include="LexBuilder\JavaLexBuilder_Should.cs" />
     <Compile Include="Lex\Model\TokenDefinition_Should.cs" />
     <Compile Include="Lex\Model\TokenPosition_Should.cs" />
     <Compile Include="Lex\Model\Token_Should.cs" />
@@ -56,6 +61,10 @@
     <ProjectReference Include="..\Jarp.KeywordMapper\Jarp.KeywordMapper.csproj">
       <Project>{97A15519-FAB5-471F-A523-950D2B3C4052}</Project>
       <Name>Jarp.KeywordMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jarp.LexerTemplates\Jarp.LexBuilder.csproj">
+      <Project>{2083B927-C049-41DD-9CC4-CF3E3473F439}</Project>
+      <Name>Jarp.LexBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="..\Jarp.Lex\Jarp.Lex.csproj">
       <Project>{2197D6F8-74DF-4AAC-A0F1-988D07E9375F}</Project>
