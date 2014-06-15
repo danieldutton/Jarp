@@ -48,12 +48,17 @@
     <Compile Include="Lex\Model\TokenPosition_Should.cs" />
     <Compile Include="Lex\Model\Token_Should.cs" />
     <Compile Include="Mother.cs" />
+    <Compile Include="ProjectMapper\DirReader_Should.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="FiniteStateGenerator\" />
+    <Folder Include="Input\" />
+    <Folder Include="ProjectMapper\TestProjects\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Jarp.Interfaces\Jarp.Interfaces.csproj">
       <Project>{60BB0F01-3C90-42F0-9C44-AD66A0885071}</Project>
@@ -70,6 +75,10 @@
     <ProjectReference Include="..\Jarp.Lex\Jarp.Lex.csproj">
       <Project>{2197D6F8-74DF-4AAC-A0F1-988D07E9375F}</Project>
       <Name>Jarp.Lex</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jarp.ProjectMapper\Jarp.ProjectMapper.csproj">
+      <Project>{DCE515D1-2688-4477-8469-632C50CC8BCE}</Project>
+      <Name>Jarp.ProjectMapper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

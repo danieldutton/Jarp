@@ -31,6 +31,7 @@
             this._lblProject = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this._btnBrowse = new System.Windows.Forms.Button();
+            this._btnRead = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // _lblProject
@@ -57,13 +58,24 @@
             this._btnBrowse.TabIndex = 2;
             this._btnBrowse.Text = "Browse";
             this._btnBrowse.UseVisualStyleBackColor = true;
-            this._btnBrowse.Click += new System.EventHandler(this._btnBrowse_Click);
+            this._btnBrowse.Click += new System.EventHandler(this.BrowseProject_Click);
+            // 
+            // _btnRead
+            // 
+            this._btnRead.Location = new System.Drawing.Point(185, 38);
+            this._btnRead.Name = "_btnRead";
+            this._btnRead.Size = new System.Drawing.Size(58, 23);
+            this._btnRead.TabIndex = 3;
+            this._btnRead.Text = "Read";
+            this._btnRead.UseVisualStyleBackColor = true;
+            this._btnRead.Click += new System.EventHandler(this.ReadProject_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(255, 73);
+            this.Controls.Add(this._btnRead);
             this.Controls.Add(this._btnBrowse);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this._lblProject);
@@ -79,6 +91,7 @@
         private System.Windows.Forms.Label _lblProject;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button _btnBrowse;
+        private System.Windows.Forms.Button _btnRead;
     }
 }
 

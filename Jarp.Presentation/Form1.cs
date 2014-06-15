@@ -10,8 +10,13 @@ namespace Jarp.Presentation
             InitializeComponent();
         }
 
-        private void _btnBrowse_Click(object sender, EventArgs e)
+        private void BrowseProject_Click(object sender, EventArgs e)
         {            
+        }
+
+        private void ReadProject_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

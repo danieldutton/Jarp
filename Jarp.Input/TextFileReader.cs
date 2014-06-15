@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Jarp.Input.Interfaces;
+using System;
 using System.IO;
-using Jarp.Input.Interfaces;
 
 namespace Jarp.Input
 {
