@@ -11,7 +11,6 @@ namespace Jarp.Tests.ProjectMapper
         {
             var sut = new DirReader();
             var result = sut.GetFiles(@"C:\Users\Dan\Documents\GitHub\TempPlus_Java");
-            
             int i = 10;
         }
     }
