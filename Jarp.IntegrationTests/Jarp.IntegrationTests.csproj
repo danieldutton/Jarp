@@ -38,11 +38,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KeywordMapping\MapInitialiser_Should.cs" />
+    <Compile Include="KeywordMapper\MapInitialiser_Should.cs" />
     <Compile Include="Lex\Lexer_Should.cs" />
     <Compile Include="Lex\Model\TokenDefinition_Should.cs" />
     <Compile Include="Lex\Model\TokenPosition_Should.cs" />
     <Compile Include="Lex\Model\Token_Should.cs" />
+    <Compile Include="Mother.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +62,12 @@
       <Project>{2197D6F8-74DF-4AAC-A0F1-988D07E9375F}</Project>
       <Name>Jarp.Lex</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FiniteStateGenerator\" />
+    <Folder Include="Input\" />
+    <Folder Include="LexBuilder\" />
+    <Folder Include="ProjectMapper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

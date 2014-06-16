@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Jarp.ProjectMapper.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
 namespace Jarp.ProjectMapper
 {
-    public class DirReader
+    public class DirReader : IProjectMapper
     {
         public IEnumerable<string> GetFiles(string path)
         {

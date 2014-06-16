@@ -41,6 +41,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FiniteStateGenerator\Terminal_Should.cs" />
     <Compile Include="KeywordMapper\MapInitialiser_Should.cs" />
     <Compile Include="LexBuilder\Builders\JavaLexBuilder_Should.cs" />
     <Compile Include="LexBuilder\Director_Should.cs" />
@@ -55,11 +56,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FiniteStateGenerator\" />
     <Folder Include="Input\" />
     <Folder Include="ProjectMapper\TestProjects\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Jarp.FiniteStateGenerator\Jarp.FiniteStateGenerator.csproj">
+      <Project>{C40421D0-3550-4AD6-A7EF-81447E92C3D4}</Project>
+      <Name>Jarp.FiniteStateGenerator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Jarp.Interfaces\Jarp.Interfaces.csproj">
       <Project>{60BB0F01-3C90-42F0-9C44-AD66A0885071}</Project>
       <Name>Jarp.Interfaces</Name>
@@ -80,6 +84,11 @@
       <Project>{DCE515D1-2688-4477-8469-632C50CC8BCE}</Project>
       <Name>Jarp.ProjectMapper</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lex\TestFiles\Animal.java">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

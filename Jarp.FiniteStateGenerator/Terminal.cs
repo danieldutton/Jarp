@@ -14,7 +14,7 @@
 
         public override string ToString()
         {
-            return string.Format("[{0}] Input:{1} Output{2}"
+            return string.Format("[{0}] Input:{1} Output:{2}"
                 , GetType().Name, Input, Output);
         }
     }

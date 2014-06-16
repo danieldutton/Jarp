@@ -71,6 +71,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jarp.ProjectMapper\Jarp.ProjectMapper.csproj">
+      <Project>{DCE515D1-2688-4477-8469-632C50CC8BCE}</Project>
+      <Name>Jarp.ProjectMapper</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
