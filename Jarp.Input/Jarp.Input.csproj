@@ -34,11 +34,19 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventArg\ReadCompleteArgs.cs" />
+    <Compile Include="EventArg\ReadInProgressArgs.cs" />
+    <Compile Include="EventArg\ReadStartArgs.cs" />
     <Compile Include="Interfaces\IFileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextFileReader.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Jarp.Interfaces\Jarp.Interfaces.csproj">
+      <Project>{60BB0F01-3C90-42F0-9C44-AD66A0885071}</Project>
+      <Name>Jarp.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

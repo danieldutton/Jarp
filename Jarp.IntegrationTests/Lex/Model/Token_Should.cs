@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using Jarp.Lex.Model;
+﻿using Jarp.Lex.Model;
 using NUnit.Framework;
 
 namespace Jarp.IntegrationTests.Lex.Model
@@ -15,7 +14,6 @@ namespace Jarp.IntegrationTests.Lex.Model
             const string expected = "";
             string actual = sut.ToString();
 
-            Debug.WriteLine(sut.ToString());
             Assert.AreEqual(expected, actual);
         }
     }

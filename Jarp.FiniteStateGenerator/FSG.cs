@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Jarp.Lex.Model;
+using System;
 using System.Collections.Generic;
-using Jarp.Lex.Model;
 
 namespace Jarp.FiniteStateGenerator
 {

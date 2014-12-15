@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using Jarp.KeywordMapper;
+﻿using Jarp.KeywordMapper;
 using Jarp.KeywordMapper.Domain;
 using NUnit.Framework;
+using System.Collections.Generic;
 
-namespace Jarp.IntegrationTests.KeywordMapping
+namespace Jarp.IntegrationTests.KeywordMapper
 {
     [TestFixture]
     public class MapInitialiser_Should
